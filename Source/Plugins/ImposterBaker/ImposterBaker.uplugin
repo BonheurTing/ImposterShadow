@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "ImposterBaker",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "LeiTing",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "ImposterBaker",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}
