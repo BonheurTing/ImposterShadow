@@ -3,6 +3,7 @@
 ![](Resource/0.png)
 
 # 简介
+这是一个在UE4中实现的Imposter，主要实现了以下功能：
 - bake过程。
 - imposter渲染。
 - 采多个视角插值，防止旋转与跳变。
@@ -13,7 +14,6 @@
 - 正确渲染shadowmap。
 
 # 效果
-
 动态阴影，左边为imposter，右边为原模型。
 
 ![](Resource/0.gif)
@@ -27,9 +27,10 @@
 ![](Resource/2.gif)  
 
 # 安装
-将 *Source/Plugins/ImposterBaker* 目录拷贝到项目或者引擎的Plugins文件夹下，在引擎插件中启用即可使用。
-由于修改了引擎源码， 将Source/Shader/目录下的文件拷贝到引擎中使用。
-将Source/Shader/目录下的文件拷贝到引擎中即可(本人使用的引擎是4.26.1)。
+将 *Source/Plugins/ImposterBaker* 目录拷贝到项目或者引擎的Plugins文件夹下，在引擎插件中启用。
+
+将Source/Shader/目录下的文件拷贝到引擎中(本人使用的引擎是4.26.1)。
+
 插件的Example/目录下有一个示例场景，场景中已经放置了一个baker，可以将任意模型拖入场景里烘焙。
 
 # 工具使用方式
